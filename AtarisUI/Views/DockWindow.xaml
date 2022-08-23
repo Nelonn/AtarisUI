@@ -1,0 +1,20 @@
+﻿<Window x:Class="AtarisUI.DockWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AtarisUI"
+        mc:Ignorable="d"
+        Title="Dock"
+        Height="1056" Width="1920"
+        WindowStyle="None" Topmost="True"
+        WindowStartupLocation="Manual"
+        Left="0" Top="0"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        AllowsTransparency="True"
+        Background="{x:Null}"
+        Loaded="Window_Loaded">
+    <Border CornerRadius="15" Background="#E5252525" Height="50" Width="800" VerticalAlignment="Bottom" Margin="0,0,0,5">
+    </Border>
+</Window>

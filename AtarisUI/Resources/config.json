@@ -1,0 +1,61 @@
+﻿{
+  "config-version": 1,
+  "topbar": {
+    "blur": true,
+    "rgb": false,
+    "text_color": "#ffffff",
+    "widgets": [
+      {
+        "type": "AtarisUI.Widgets.Shortcut",
+        "settings": {
+          "file": "C:\\Windows\\system32\\cmd.exe",
+          "arguments": "",
+          "working_directory": "C:\\",
+          "title": "Command prompt"
+        }
+      },
+      {
+        "type": "AtarisUI.Widgets.Shortcut",
+        "settings": {
+          "file": "C:\\Windows\\explorer.exe",
+          "title": "File explorer"
+        }
+      },
+      {
+        "type": "AtarisUI.Widgets.Text",
+        "settings": {
+          "text": "AtarisUI by Nelonn"
+        }
+      },
+      {
+        "type": "AtarisUI.Widgets.RAMUsageText",
+        "settings": {
+          "color": "#ffffff"
+        }
+      },
+      {
+        "type": "AtarisUI.Widgets.CPUUsage",
+        "settings": {}
+      },
+      {
+        "type": "AtarisUI.Widgets.Audio",
+        "settings": {}
+      },
+      {
+        "type": "AtarisUI.Widgets.Clock",
+        "settings": {
+          "format": "MMM d h:m tt",
+          "text_color": "#ffffff"
+        }
+      }
+    ]
+  },
+  "dock": {
+    "background_color": {
+      "alpha": 90,
+      "red": 34,
+      "green": 34,
+      "blue": 34
+    }
+  }
+}
